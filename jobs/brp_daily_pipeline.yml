@@ -1,0 +1,31 @@
+resources:
+  jobs:
+    brp_daily_pipeline:
+      name: brp_daily_pipeline
+      email_notifications:
+        on_failure:
+          - you@example.com
+      schedule:
+        quartz_cron_expression: 2 0 9 * * ?
+        timezone_id: America/New_York
+        pause_status: UNPAUSED
+      tasks:
+        - task_key: bronze_ingest
+          notebook_task:
+            notebook_path: /Workspace/Users/you@example.com/blue-ridge-parkway-closures/notebooks/02_bronze_ingest
+            source: WORKSPACE
+        - task_key: silver_road_sections_status
+          depends_on:
+            - task_key: bronze_ingest
+          notebook_task:
+            notebook_path: /Workspace/Users/you@example.com/blue-ridge-parkway-closures/notebooks/03_silver_road_sections_status
+            source: WORKSPACE
+        - task_key: gold
+          depends_on:
+            - task_key: silver_road_sections_status
+          notebook_task:
+            notebook_path: /Workspace/Users/you@example.com/blue-ridge-parkway-closures/notebooks/05_gold
+            source: WORKSPACE
+      queue:
+        enabled: true
+      performance_target: PERFORMANCE_OPTIMIZED
