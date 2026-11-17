@@ -26,6 +26,12 @@ resources:
           notebook_task:
             notebook_path: /Workspace/Users/you@example.com/blue-ridge-parkway-closures/notebooks/05_gold
             source: WORKSPACE
+        - task_key: publish_notebook
+          depends_on:
+            - task_key: gold
+          notebook_task:
+            notebook_path: /Workspace/Users/you@example.com/blue-ridge-parkway-closures/notebooks/06_publish_notebook
+            source: WORKSPACE
       queue:
         enabled: true
       performance_target: PERFORMANCE_OPTIMIZED
