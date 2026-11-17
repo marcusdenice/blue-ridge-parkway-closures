@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic page settings -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">   <!-- fit phone screens -->
+  <title>Blue Ridge Parkway Road Status</title>
+  <meta name="description" content="Daily-updated map of Blue Ridge Parkway road status, built with a Databricks medallion pipeline.">
 
+  <!-- Leaflet: free, open-source map library (style sheet) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+  <!-- This site's own styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ===== HEADER: title and data freshness ===== -->
+  <header>
+    <h1>Blue Ridge Parkway Road Status</h1>
+    <p class="freshness">
+      NPS status as of <span id="nps-as-of">loading…</span>
+      · Last checked <span id="fetched-at">loading…</span>
+    </p>
+  </header>
+
+  <!-- ===== KPI CARDS: filled in by app.js from the summary ===== -->
+  <section class="kpis">
+    <div class="kpi">
+      <span class="label">Passable</span>
+      <span class="value" id="kpi-passable">–</span>
+    </div>
+    <div class="kpi open">
+      <span class="label">Miles open</span>
+      <span class="value" id="kpi-open">–</span>
+    </div>
+    <div class="kpi reduced">
+      <span class="label">Miles reduced</span>
+      <span class="value" id="kpi-reduced">–</span>
+    </div>
+    <div class="kpi closed">
+      <span class="label">Miles closed</span>
+      <span class="value" id="kpi-closed">–</span>
+    </div>
+  </section>
+
+  <!-- ===== MAP + LIST of sections that aren't fully open ===== -->
+  <main>
+    <div id="map" aria-label="Map of parkway sections colored by status"></div>
+
+    <aside>
+      <h2>Not fully open</h2>
+      <div id="section-list"><p class="muted">Loading…</p></div>
+    </aside>
+  </main>
+
+  <!-- ===== FOOTER: disclaimer, sources, how it's built ===== -->
+  <footer>
+    <p>
+      <strong>Not for navigation.</strong> Always confirm with the official
+      <a href="https://www.nps.gov/blri/planyourvisit/roadclosures.htm" target="_blank" rel="noopener">NPS road status page</a>.
+    </p>
+    <p>
+      Data: National Park Service · Map: © OpenStreetMap contributors ·
+      Built with Databricks (bronze → silver → gold) and GitHub Pages ·
+      <a id="repo-link" href="#" target="_blank" rel="noopener">View the code</a>
+    </p>
+  </footer>
+
+  <!-- Leaflet's code, then this site's code (order matters: app.js uses Leaflet) -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
