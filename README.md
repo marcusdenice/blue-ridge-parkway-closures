@@ -77,8 +77,6 @@ The project is built for **current status only**: each table holds the latest ru
 
 **Job:** `brp_daily_pipeline`: `bronze_ingest → silver_road_sections → gold → publish`, daily at 09:00, serverless compute, email on failure. Each task runs only if the previous one succeeded. Definition: [`jobs/brp_daily_pipeline.yml`](jobs/brp_daily_pipeline.yml).
 
-![Job graph](docs/images/job.png)
-
 ---
 
 ## Data quality
@@ -111,7 +109,6 @@ Checks run before every write. **FAIL** checks stop the job; **WARN** checks are
 
 - **Silently dropped row:** the first parser filtered and parsed in one step, so the first North Carolina row disappeared (a 12.8-mile coverage gap). The coverage check caught it; the fix was to extract every row first and require every row to be accounted for.
 - **Source data error:** the NPS milepost layer had milepost 89 twice and 88 missing. Verified by distance from neighbouring points, then fixed with a documented correction targeted at that one feature, which warns if NPS fixes the source.
-- **Leftover notebook variables:** a renamed variable kept "working" because the old name was still in memory. Now: clear state and run all before every commit.
 
 ---
 
@@ -133,7 +130,6 @@ Checks run before every write. **FAIL** checks stop the job; **WARN** checks are
 
 ```
 notebooks/          Databricks notebooks (pipeline numbered in run order)
-  exploration/      investigation and review notebooks
 jobs/               Databricks job definition (YAML)
 docs/               GitHub Pages website
   index.html        page structure
@@ -155,7 +151,6 @@ docs/               GitHub Pages website
 
 ## Limitations and ideas
 
-- Partial closures written outside the tables (e.g. "CLOSED: MP 63.5–63.9") aren't captured yet.
 - Single-milepost rows (spot closures) are set aside rather than mapped as points.
 - The parser depends on the NPS page layout; a redesign would fail the checks (by design) and need parser updates.
 - Ideas: keep history for seasonal analysis, define the job as code with Declarative Automation Bundles, add weather data.
