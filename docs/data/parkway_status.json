@@ -1,12 +1,12 @@
 {
- "run_date": "2026-11-19",
- "fetched_at": "2026-11-19 14:00:20.935172",
- "nps_as_of": "8:00 A.M, Thursday, November 19, 2026",
+ "run_date": "2026-11-20",
+ "fetched_at": "2026-11-20 14:00:20.086430",
+ "nps_as_of": "7:00 A.M, Friday, November 20, 2026",
  "summary": {
   "NC": {
-   "run_date": "2026-11-19",
-   "fetched_at": "2026-11-19 14:00:20.935172",
-   "nps_as_of": "8:00 A.M, Thursday, November 19, 2026",
+   "run_date": "2026-11-20",
+   "fetched_at": "2026-11-20 14:00:20.086430",
+   "nps_as_of": "7:00 A.M, Friday, November 20, 2026",
    "scope": "NC",
    "sections": 43,
    "miles_total": 252.1,
@@ -18,9 +18,9 @@
    "pct_passable": 66.2
   },
   "ALL": {
-   "run_date": "2026-11-19",
-   "fetched_at": "2026-11-19 14:00:20.935172",
-   "nps_as_of": "8:00 A.M, Thursday, November 19, 2026",
+   "run_date": "2026-11-20",
+   "fetched_at": "2026-11-20 14:00:20.086430",
+   "nps_as_of": "7:00 A.M, Friday, November 20, 2026",
    "scope": "ALL",
    "sections": 66,
    "miles_total": 469.0,
@@ -32,9 +32,9 @@
    "pct_passable": 76.6
   },
   "VA": {
-   "run_date": "2026-11-19",
-   "fetched_at": "2026-11-19 14:00:20.935172",
-   "nps_as_of": "8:00 A.M, Thursday, November 19, 2026",
+   "run_date": "2026-11-20",
+   "fetched_at": "2026-11-20 14:00:20.086430",
+   "nps_as_of": "7:00 A.M, Friday, November 20, 2026",
    "scope": "VA",
    "sections": 23,
    "miles_total": 216.9,
