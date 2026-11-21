@@ -1,49 +1,49 @@
 {
- "run_date": "2026-11-20",
- "fetched_at": "2026-11-20 14:00:20.086430",
- "nps_as_of": "7:00 A.M, Friday, November 20, 2026",
+ "run_date": "2026-11-21",
+ "fetched_at": "2026-11-21 14:00:19.798165",
+ "nps_as_of": "2:32 P.M, Friday, November 20, 2026",
  "summary": {
   "NC": {
-   "run_date": "2026-11-20",
-   "fetched_at": "2026-11-20 14:00:20.086430",
-   "nps_as_of": "7:00 A.M, Friday, November 20, 2026",
+   "run_date": "2026-11-21",
+   "fetched_at": "2026-11-21 14:00:19.798165",
+   "nps_as_of": "2:32 P.M, Friday, November 20, 2026",
    "scope": "NC",
    "sections": 43,
    "miles_total": 252.1,
-   "miles_open": 136.1,
+   "miles_open": 153.7,
    "miles_reduced": 30.9,
-   "miles_closed": 85.1,
+   "miles_closed": 67.5,
    "miles_unknown": 0.0,
-   "pct_open": 54.0,
-   "pct_passable": 66.2
+   "pct_open": 61.0,
+   "pct_passable": 73.2
   },
   "ALL": {
-   "run_date": "2026-11-20",
-   "fetched_at": "2026-11-20 14:00:20.086430",
-   "nps_as_of": "7:00 A.M, Friday, November 20, 2026",
+   "run_date": "2026-11-21",
+   "fetched_at": "2026-11-21 14:00:19.798165",
+   "nps_as_of": "2:32 P.M, Friday, November 20, 2026",
    "scope": "ALL",
    "sections": 66,
    "miles_total": 469.0,
-   "miles_open": 328.4,
+   "miles_open": 370.6,
    "miles_reduced": 30.9,
-   "miles_closed": 109.7,
+   "miles_closed": 67.5,
    "miles_unknown": 0.0,
-   "pct_open": 70.0,
-   "pct_passable": 76.6
+   "pct_open": 79.0,
+   "pct_passable": 85.6
   },
   "VA": {
-   "run_date": "2026-11-20",
-   "fetched_at": "2026-11-20 14:00:20.086430",
-   "nps_as_of": "7:00 A.M, Friday, November 20, 2026",
+   "run_date": "2026-11-21",
+   "fetched_at": "2026-11-21 14:00:19.798165",
+   "nps_as_of": "2:32 P.M, Friday, November 20, 2026",
    "scope": "VA",
    "sections": 23,
    "miles_total": 216.9,
-   "miles_open": 192.3,
+   "miles_open": 216.9,
    "miles_reduced": 0.0,
-   "miles_closed": 24.6,
+   "miles_closed": 0.0,
    "miles_unknown": 0.0,
-   "pct_open": 88.7,
-   "pct_passable": 88.7
+   "pct_open": 100.0,
+   "pct_passable": 100.0
   }
  },
  "sections": {
@@ -627,9 +627,9 @@
      "mp_end": 76.4,
      "length_mi": 10.1,
      "crossroads": "VA Route 501 to Apple Orchard Parking Area",
-     "status": "closed",
-     "status_raw": "Closed",
-     "notes": "Scheduled winter maintenance operations",
+     "status": "open",
+     "status_raw": "Open",
+     "notes": "",
      "gated": true
     }
    },
@@ -1027,9 +1027,9 @@
      "mp_end": 135.9,
      "length_mi": 14.5,
      "crossroads": "US Route 220 to Adney Gap",
-     "status": "closed",
-     "status_raw": "Closed",
-     "notes": "Scheduled maintenance activities",
+     "status": "open",
+     "status_raw": "Open",
+     "notes": "",
      "gated": true
     }
    },
@@ -2288,8 +2288,8 @@
      "length_mi": 6.6,
      "crossroads": "Holloway Mountain Road to US Highway 221 (Beacon Heights)",
      "status": "reduced",
-     "status_raw": "FULL CLOSURE DUE TO WEATHER Open with sporadic single lane closures",
-     "notes": "FULL CLOSURE DUE TO WEATHER Open with sporadic, short duration single lane closures between MP 291.8 - MP 305.1 for an ongoing Great American Outdoors Act Project.",
+     "status_raw": "Open with sporadic single lane closures",
+     "notes": "Open with sporadic, short duration single lane closures between MP 291.8 - MP 305.1 for an ongoing Great American Outdoors Act Project.",
      "gated": true
     }
    },
@@ -2871,9 +2871,9 @@
      "mp_end": 367.6,
      "length_mi": 3.1,
      "crossroads": "South of Craggy Gardens Tunnel to North of Craggy Gardens Picnic Area",
-     "status": "closed",
-     "status_raw": "Closed",
-     "notes": "Weather Closure",
+     "status": "open",
+     "status_raw": "Open",
+     "notes": "",
      "gated": true
     }
    },
@@ -2931,9 +2931,9 @@
      "mp_end": 375.7,
      "length_mi": 8.1,
      "crossroads": "North of Craggy Gardens Picnic Area to Bull Gap (North of Elk Mountain/Ox Creek Road)",
-     "status": "closed",
-     "status_raw": "Closed",
-     "notes": "Weather Closure",
+     "status": "open",
+     "status_raw": "Open",
+     "notes": "",
      "gated": true
     }
    },
@@ -3315,9 +3315,9 @@
      "mp_end": 408.8,
      "length_mi": 3.3,
      "crossroads": "Elk Pasture Gap to Pisgah Store",
-     "status": "closed",
-     "status_raw": "Closed",
-     "notes": "Road Maintenance",
+     "status": "open",
+     "status_raw": "Open",
+     "notes": "",
      "gated": true
     }
    },
@@ -3355,9 +3355,9 @@
      "mp_end": 411.9,
      "length_mi": 3.1,
      "crossroads": "Pisgah Store (Pisgah Campground and Inn) to US Route 276",
-     "status": "closed",
-     "status_raw": "Closed",
-     "notes": "Road Maintenance",
+     "status": "open",
+     "status_raw": "Open",
+     "notes": "",
      "gated": true
     }
    },
