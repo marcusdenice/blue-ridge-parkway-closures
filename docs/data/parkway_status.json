@@ -1,40 +1,40 @@
 {
- "run_date": "2026-11-21",
- "fetched_at": "2026-11-21 14:00:19.798165",
- "nps_as_of": "2:32 P.M, Friday, November 20, 2026",
+ "run_date": "2026-11-22",
+ "fetched_at": "2026-11-22 14:00:20.405471",
+ "nps_as_of": "7:28 P.M, Sunday, November 22, 2026",
  "summary": {
   "NC": {
-   "run_date": "2026-11-21",
-   "fetched_at": "2026-11-21 14:00:19.798165",
-   "nps_as_of": "2:32 P.M, Friday, November 20, 2026",
+   "run_date": "2026-11-22",
+   "fetched_at": "2026-11-22 14:00:20.405471",
+   "nps_as_of": "7:28 P.M, Sunday, November 22, 2026",
    "scope": "NC",
    "sections": 43,
    "miles_total": 252.1,
-   "miles_open": 153.7,
-   "miles_reduced": 30.9,
-   "miles_closed": 67.5,
+   "miles_open": 191.9,
+   "miles_reduced": 51.0,
+   "miles_closed": 9.2,
    "miles_unknown": 0.0,
-   "pct_open": 61.0,
-   "pct_passable": 73.2
+   "pct_open": 76.1,
+   "pct_passable": 96.4
   },
   "ALL": {
-   "run_date": "2026-11-21",
-   "fetched_at": "2026-11-21 14:00:19.798165",
-   "nps_as_of": "2:32 P.M, Friday, November 20, 2026",
+   "run_date": "2026-11-22",
+   "fetched_at": "2026-11-22 14:00:20.405471",
+   "nps_as_of": "7:28 P.M, Sunday, November 22, 2026",
    "scope": "ALL",
    "sections": 66,
    "miles_total": 469.0,
-   "miles_open": 370.6,
-   "miles_reduced": 30.9,
-   "miles_closed": 67.5,
+   "miles_open": 408.8,
+   "miles_reduced": 51.0,
+   "miles_closed": 9.2,
    "miles_unknown": 0.0,
-   "pct_open": 79.0,
-   "pct_passable": 85.6
+   "pct_open": 87.2,
+   "pct_passable": 98.0
   },
   "VA": {
-   "run_date": "2026-11-21",
-   "fetched_at": "2026-11-21 14:00:19.798165",
-   "nps_as_of": "2:32 P.M, Friday, November 20, 2026",
+   "run_date": "2026-11-22",
+   "fetched_at": "2026-11-22 14:00:20.405471",
+   "nps_as_of": "7:28 P.M, Sunday, November 22, 2026",
    "scope": "VA",
    "sections": 23,
    "miles_total": 216.9,
@@ -1759,9 +1759,9 @@
      "mp_end": 249.3,
      "length_mi": 8.2,
      "crossroads": "NC-18 to S. Laurel Fork Rd/Rte 1613",
-     "status": "open",
-     "status_raw": "Open",
-     "notes": "",
+     "status": "reduced",
+     "status_raw": "Open with sporadic single lane closures.",
+     "notes": "Open with sporadic, short duration single lane closures between MP 242.3 - MP 249.3.",
      "gated": true
     }
    },
@@ -1835,9 +1835,9 @@
      "mp_end": 261.2,
      "length_mi": 11.9,
      "crossroads": "S. Laurel Fork Rd/Rte 1613 to NC-16",
-     "status": "open",
-     "status_raw": "Ungated",
-     "notes": "",
+     "status": "reduced",
+     "status_raw": "Ungated with sporadic single lane closures.",
+     "notes": "Open with sporadic, short duration single lane closures between MP 249.3 - MP 261.2.",
      "gated": false
     }
    },
@@ -2767,9 +2767,9 @@
      "mp_end": 355.3,
      "length_mi": 11.1,
      "crossroads": "NC Highway 80 to Mount Mitchell State Park",
-     "status": "closed",
-     "status_raw": "Closed",
-     "notes": "Helene Related Closure Recreation of any kind is PROHIBITED in this section.",
+     "status": "open",
+     "status_raw": "Open",
+     "notes": "",
      "gated": true
     }
    },
@@ -3051,9 +3051,9 @@
      "mp_end": 384.1,
      "length_mi": 1.3,
      "crossroads": "Highway 70 (Tunnel Road) to Park Headquarters and Visitor Center",
-     "status": "closed",
-     "status_raw": "Closed",
-     "notes": "Closed completely at Tunnel Rd; Access to Headquarters from Highway 74A",
+     "status": "open",
+     "status_raw": "Open",
+     "notes": "",
      "gated": true
     }
    },
@@ -3591,9 +3591,9 @@
      "mp_end": 443.0,
      "length_mi": 19.8,
      "crossroads": "Beech Gap (NC Route 215) to Balsam Gap (US Route 23/74)",
-     "status": "closed",
-     "status_raw": "Closed",
-     "notes": "Weather Closure",
+     "status": "open",
+     "status_raw": "Open",
+     "notes": "",
      "gated": true
     }
    },
@@ -3667,9 +3667,9 @@
      "mp_end": 455.7,
      "length_mi": 12.7,
      "crossroads": "Balsam Gap (US Route 23/74) to Soco Gap (US Route 19)",
-     "status": "closed",
-     "status_raw": "Closed",
-     "notes": "Weather Closure",
+     "status": "open",
+     "status_raw": "Open",
+     "notes": "",
      "gated": true
     }
    },
@@ -3751,9 +3751,9 @@
      "mp_end": 469.1,
      "length_mi": 13.4,
      "crossroads": "Soco Gap (US Route 19) to US Route 441 thru Great Smoky Mtns. NP",
-     "status": "closed",
-     "status_raw": "Closed",
-     "notes": "Weather Closure",
+     "status": "open",
+     "status_raw": "Open",
+     "notes": "",
      "gated": true
     }
    }
