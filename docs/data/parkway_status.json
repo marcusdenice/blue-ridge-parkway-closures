@@ -1,12 +1,12 @@
 {
- "run_date": "2026-11-22",
- "fetched_at": "2026-11-22 14:00:20.405471",
- "nps_as_of": "7:28 P.M, Sunday, November 22, 2026",
+ "run_date": "2026-11-23",
+ "fetched_at": "2026-11-23 14:00:22.868975",
+ "nps_as_of": "8:11 A.M, Monday, November 23, 2026",
  "summary": {
   "NC": {
-   "run_date": "2026-11-22",
-   "fetched_at": "2026-11-22 14:00:20.405471",
-   "nps_as_of": "7:28 P.M, Sunday, November 22, 2026",
+   "run_date": "2026-11-23",
+   "fetched_at": "2026-11-23 14:00:22.868975",
+   "nps_as_of": "8:11 A.M, Monday, November 23, 2026",
    "scope": "NC",
    "sections": 43,
    "miles_total": 252.1,
@@ -18,32 +18,32 @@
    "pct_passable": 96.4
   },
   "ALL": {
-   "run_date": "2026-11-22",
-   "fetched_at": "2026-11-22 14:00:20.405471",
-   "nps_as_of": "7:28 P.M, Sunday, November 22, 2026",
+   "run_date": "2026-11-23",
+   "fetched_at": "2026-11-23 14:00:22.868975",
+   "nps_as_of": "8:11 A.M, Monday, November 23, 2026",
    "scope": "ALL",
    "sections": 66,
    "miles_total": 469.0,
-   "miles_open": 408.8,
+   "miles_open": 384.2,
    "miles_reduced": 51.0,
-   "miles_closed": 9.2,
+   "miles_closed": 33.8,
    "miles_unknown": 0.0,
-   "pct_open": 87.2,
-   "pct_passable": 98.0
+   "pct_open": 81.9,
+   "pct_passable": 92.8
   },
   "VA": {
-   "run_date": "2026-11-22",
-   "fetched_at": "2026-11-22 14:00:20.405471",
-   "nps_as_of": "7:28 P.M, Sunday, November 22, 2026",
+   "run_date": "2026-11-23",
+   "fetched_at": "2026-11-23 14:00:22.868975",
+   "nps_as_of": "8:11 A.M, Monday, November 23, 2026",
    "scope": "VA",
    "sections": 23,
    "miles_total": 216.9,
-   "miles_open": 216.9,
+   "miles_open": 192.3,
    "miles_reduced": 0.0,
-   "miles_closed": 0.0,
+   "miles_closed": 24.6,
    "miles_unknown": 0.0,
-   "pct_open": 100.0,
-   "pct_passable": 100.0
+   "pct_open": 88.7,
+   "pct_passable": 88.7
   }
  },
  "sections": {
@@ -627,9 +627,9 @@
      "mp_end": 76.4,
      "length_mi": 10.1,
      "crossroads": "VA Route 501 to Apple Orchard Parking Area",
-     "status": "open",
-     "status_raw": "Open",
-     "notes": "",
+     "status": "closed",
+     "status_raw": "Closed",
+     "notes": "Temporarily closed for winter maintenance activities.",
      "gated": true
     }
    },
@@ -1027,9 +1027,9 @@
      "mp_end": 135.9,
      "length_mi": 14.5,
      "crossroads": "US Route 220 to Adney Gap",
-     "status": "open",
-     "status_raw": "Open",
-     "notes": "",
+     "status": "closed",
+     "status_raw": "Closed",
+     "notes": "Temporary closure for winter road maintenance.",
      "gated": true
     }
    },
