@@ -1,12 +1,12 @@
 {
- "run_date": "2026-11-25",
- "fetched_at": "2026-11-25 14:00:21.871487",
- "nps_as_of": "8:32 A.M, Wednesday, November 25, 2026",
+ "run_date": "2026-11-26",
+ "fetched_at": "2026-11-26 14:00:23.696769",
+ "nps_as_of": "9:26 A.M, Wednesday, November 25, 2026",
  "summary": {
   "NC": {
-   "run_date": "2026-11-25",
-   "fetched_at": "2026-11-25 14:00:21.871487",
-   "nps_as_of": "8:32 A.M, Wednesday, November 25, 2026",
+   "run_date": "2026-11-26",
+   "fetched_at": "2026-11-26 14:00:23.696769",
+   "nps_as_of": "9:26 A.M, Wednesday, November 25, 2026",
    "scope": "NC",
    "sections": 43,
    "miles_total": 252.1,
@@ -18,32 +18,32 @@
    "pct_passable": 95.3
   },
   "ALL": {
-   "run_date": "2026-11-25",
-   "fetched_at": "2026-11-25 14:00:21.871487",
-   "nps_as_of": "8:32 A.M, Wednesday, November 25, 2026",
+   "run_date": "2026-11-26",
+   "fetched_at": "2026-11-26 14:00:23.696769",
+   "nps_as_of": "9:26 A.M, Wednesday, November 25, 2026",
    "scope": "ALL",
    "sections": 66,
    "miles_total": 469.0,
-   "miles_open": 381.5,
+   "miles_open": 396.0,
    "miles_reduced": 51.0,
-   "miles_closed": 36.5,
+   "miles_closed": 22.0,
    "miles_unknown": 0.0,
-   "pct_open": 81.3,
-   "pct_passable": 92.2
+   "pct_open": 84.4,
+   "pct_passable": 95.3
   },
   "VA": {
-   "run_date": "2026-11-25",
-   "fetched_at": "2026-11-25 14:00:21.871487",
-   "nps_as_of": "8:32 A.M, Wednesday, November 25, 2026",
+   "run_date": "2026-11-26",
+   "fetched_at": "2026-11-26 14:00:23.696769",
+   "nps_as_of": "9:26 A.M, Wednesday, November 25, 2026",
    "scope": "VA",
    "sections": 23,
    "miles_total": 216.9,
-   "miles_open": 192.3,
+   "miles_open": 206.8,
    "miles_reduced": 0.0,
-   "miles_closed": 24.6,
+   "miles_closed": 10.1,
    "miles_unknown": 0.0,
-   "pct_open": 88.7,
-   "pct_passable": 88.7
+   "pct_open": 95.3,
+   "pct_passable": 95.3
   }
  },
  "sections": {
@@ -1027,9 +1027,9 @@
      "mp_end": 135.9,
      "length_mi": 14.5,
      "crossroads": "US Route 220 to Adney Gap",
-     "status": "closed",
-     "status_raw": "Closed",
-     "notes": "Temporary closure for winter road maintenance.",
+     "status": "open",
+     "status_raw": "Open",
+     "notes": "",
      "gated": true
     }
    },
